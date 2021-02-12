@@ -15,6 +15,7 @@ def parsing():
 	print("Task to perform after detect changes")
 
 def hash_find():
+	# Replace data.db with your file name, where to find changes
 	hash_value = scan('data.db')
 	return hash_value
 
